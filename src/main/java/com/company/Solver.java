@@ -24,7 +24,7 @@ public class Solver {
     }
 
     private String processOutputFile(List<List<Seat>> assignment) throws IOException {
-        File fout = new File("output.txt");
+        File fout = new File("D:\\MovieTheaterSeating\\src\\main\\java\\com\\company\\output.txt");
         FileOutputStream fos = new FileOutputStream(fout);
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
