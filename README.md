@@ -1,4 +1,4 @@
-﻿# Movie-Theater-Seating
+# Movie-Theater-Seating
 
 This is the Movie Theater Seating Challenge programmed with Java.
 
@@ -50,5 +50,3 @@ The project can be improved given more time, for examples in some areas like:
 - Performance: Improve on the algorithm for the arrangement. For example, if a group exceeds the maximum number of people for each row (20), we should arrange that they can sit together both horizontally and vertically or split into smaller groups. Also, for better customer experience, we should arrange the middle seats of each row with better views (instead of arranging from left to right).
 - Testing: Write more comprehensive test cases and use mockito to cover all the functionalities.
 - Management: Integrate with maven apache to easily manage the project with dependencies and libraries.
-
-
