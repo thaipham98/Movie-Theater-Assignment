@@ -23,7 +23,7 @@ class SolverTest {
 
     @Test
     public void givenInputPath_whenGetOutputPath_returnCorrectOutput_test() throws IOException {
-        String inputPath = "D:\\MovieTheaterSeating\\src\\com\\company\\input.txt";
+        String inputPath = "D:\\MovieTheaterSeating\\src\\main\\java\\com\\company\\input.txt";
         String outputPath = solver.output(theater, inputPath);
 
         List<String> actualResults = new ArrayList<>();
