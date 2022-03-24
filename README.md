@@ -12,18 +12,10 @@ Requirement: design and write a seat assignment program to maximize both custome
 
 1. Clone this Github repo or download the zip file at https://github.com/thaipham98/Movie-Theater-Seating.
 2. Open terminal of choice and cd into the Movie-Theater-Seating directory.
-3. Cd into source folder:
 
+## Run the program
 ```bash
-cd src
-```
-
-## Compile the program
-
-First, we need to compile all .java files at `src/com/company`
-
-```bash
-javac com/company/*.java
+mvn compile exec:java
 ```
 
 ## Test
@@ -31,11 +23,9 @@ javac com/company/*.java
 Run the below command to test against 2 provided sample test cases
 
 ```bash
-java com.company.SolverTest
+mvn test
 ```
-```bash
-java com.company.TheaterTest
-```
+
 ## 
 
 ## Summary & Caveats
@@ -49,4 +39,4 @@ The project can be improved given more time, for examples in some areas like:
 - Robustness: More extensive testing and design to bring more OOP or other design patterns to increase robustness and maintenance ease.
 - Performance: Improve on the algorithm for the arrangement. For example, if a group exceeds the maximum number of people for each row (20), we should arrange that they can sit together both horizontally and vertically or split into smaller groups. Also, for better customer experience, we should arrange the middle seats of each row with better views (instead of arranging from left to right).
 - Testing: Write more comprehensive test cases and use mockito to cover all the functionalities.
-- Management: Integrate with maven apache to easily manage the project with dependencies and libraries.
+
