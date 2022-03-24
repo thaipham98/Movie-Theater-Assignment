@@ -32,6 +32,7 @@ mvn test
 ### Summary
 The application is an attempt for the Walmart coding challenge. Specifically, it contains:
 - All required basic functionalities for movie seating arrangement as required.
+- Added-in maven project.
 - Preliminary unit tests.
 - README and easy dependency installations.
 ### Caveats
