@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.company.SolverTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.company.SolverTest" time="0.025" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:/MovieTheaterSeating"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\MovieTheaterSeating"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -24,22 +24,22 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:/Maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\giath\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Users\giath\AppData\Local\Microsoft\WindowsApps;C:\Users\giath\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\giath\AppData\Roaming\npm;C:\Users\giath\AppData\Local\atom\bin;C:\MinGW\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-15\bin;C:\Users\giath\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;C:\Program Files\JetBrains\GoLand 2021.3.3\bin;."/>
-    <property name="maven.conf" value="C:/Maven/apache-maven-3.6.3/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\giath\AppData\Local\Microsoft\WindowsApps;C:\Users\giath\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\giath\AppData\Roaming\npm;C:\Users\giath\AppData\Local\atom\bin;C:\MinGW\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-15\bin;;C:\Users\giath\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;;C:\Program Files\JetBrains\GoLand 2021.3.3\bin;;."/>
+    <property name="maven.conf" value="C:\Maven\apache-maven-3.6.3\bin\../conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="59.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:/Maven/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="library.jansi.path" value="C:\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\giath"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="15"/>
     <property name="user.name" value="giath"/>
-    <property name="java.class.path" value="C:/Maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
@@ -50,7 +50,7 @@
     <property name="java.version" value="15"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\Maven\apache-maven-3.6.3"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2020-09-15"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -59,5 +59,5 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="givenInputPath_whenGetOutputPath_returnCorrectOutput_test" classname="com.company.SolverTest" time="0.019"/>
+  <testcase name="givenInputPath_whenGetOutputPath_returnCorrectOutput_test" classname="com.company.SolverTest" time="0.024"/>
 </testsuite>
