@@ -11,7 +11,8 @@ Requirement: design and write a seat assignment program to maximize both custome
 ## Usage
 
 1. Clone this Github repo or download the zip file at https://github.com/thaipham98/Movie-Theater-Seating.
-2. Open terminal of choice and cd into the Movie-Theater-Seating directory.
+2. Install Apache Maven: https://maven.apache.org/install.html
+3. Open terminal of choice and cd into the Movie-Theater-Seating directory.
 
 ## Run the program
 ```bash
